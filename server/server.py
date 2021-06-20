@@ -11,7 +11,7 @@ app = Flask(__name__)
 
 HOST = '127.0.0.1'
 USER = 'root'
-PSSWD = 'aloha'
+PSSWD = '****'
 DATABASE = 'twitter'
 
 #@app.route("/home", methods = ['POST', 'GET'])

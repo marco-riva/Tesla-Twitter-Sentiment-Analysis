@@ -13,14 +13,14 @@ from sklearn.linear_model import LogisticRegression
 import matplotlib.pyplot as plt
 
 
-consumer_key = 'sBx5o18FPqxTJ92D9BMMbRlDb'
-consumer_secret = 'p8TBarSZmbtzEJCWHhr9R6GsonWz2FNoQsCvDIo8ARQuixrPl9'
-access_token_key = '1249770961496207360-NwRkBUSZrCuIlHgreggXOcFjbZwLrI'
-access_token_secret = 'McdjnZ9ZTMbkvSuQrPtEkQaUd76pePBpIravExn9e08ok'
+consumer_key = '****'
+consumer_secret = '****'
+access_token_key = '****'
+access_token_secret = '****'
 
 HOST = '127.0.0.1'
 USER = 'root'
-PSSWD = 'aloha'
+PSSWD = '****'
 DATABASE = 'twitter'
 
 # load pipeline with vectorizer and Logistic Regression model
