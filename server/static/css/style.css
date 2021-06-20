@@ -1,0 +1,17 @@
+body {color:rgb(182, 6, 6);
+    font-size: 28px;}
+p {color: rgb(49, 47, 47);
+    font-size: 24px;}
+
+.container {
+    width: 800px;
+    height: 600px;
+}
+
+/* resize images */
+.container img {
+    width: 100%;
+    height: auto;
+    overflow: auto;
+}
+

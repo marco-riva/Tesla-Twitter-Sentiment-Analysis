@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+
+{% block title %}
+    Tesla Twitter Sentiment Analysis
+{% endblock %}
+
+{% block content %}
+    <div class="container">
+        <h1> Tesla Twitter Sentiment </h1>
+        <p> This plot shows the number of positive, neutral and negative tweets on Tesla in the last 24 hours.  </p>
+        <image src="{{ url_for('static', filename='img/'+graph)}}"> 
+    </div>
+{% endblock %}
+
